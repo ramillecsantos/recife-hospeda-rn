@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "recife-gastro",
-    "slug": "recife-gastro",
+    "name": "recife-hospeda",
+    "slug": "recife-hospeda",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Recife Hospeda to use your location."
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
